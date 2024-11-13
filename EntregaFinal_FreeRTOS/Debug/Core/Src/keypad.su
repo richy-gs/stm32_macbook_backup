@@ -1,0 +1,2 @@
+../Core/Src/keypad.c:12:6:KEYPAD_Init	4	static
+../Core/Src/keypad.c:48:6:KEYPAD_ReadKey	64	static

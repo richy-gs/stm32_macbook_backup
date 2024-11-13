@@ -1,0 +1,10 @@
+23:31:00 **** Incremental Build of configuration Debug for project EntregaFinal_FreeRTOS ****
+make -j7 all 
+arm-none-eabi-size  EntregaFinal_FreeRTOS.elf 
+   text	   data	    bss	    dec	    hex	filename
+  58720	    488	  12480	  71688	  11808	EntregaFinal_FreeRTOS.elf
+Finished building: default.size.stdout
+ 
+
+23:31:01 Build Finished. 0 errors, 0 warnings. (took 483ms)
+

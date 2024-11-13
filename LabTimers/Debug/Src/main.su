@@ -1,0 +1,4 @@
+../Src/main.c:17:5:main	8	static
+../Src/main.c:30:6:USER_RCC_ClockEnable	4	static
+../Src/main.c:35:6:USER_GPIO_Init	4	static
+../Src/main.c:46:6:delay	4	static

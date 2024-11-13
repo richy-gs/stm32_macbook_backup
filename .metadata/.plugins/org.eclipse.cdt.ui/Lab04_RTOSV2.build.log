@@ -1,0 +1,10 @@
+01:00:29 **** Incremental Build of configuration Debug for project Lab04_RTOSV2 ****
+make -j7 all 
+arm-none-eabi-size  Lab04_RTOSV2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21360	    108	   7188	  28656	   6ff0	Lab04_RTOSV2.elf
+Finished building: default.size.stdout
+ 
+
+01:00:30 Build Finished. 0 errors, 0 warnings. (took 286ms)
+

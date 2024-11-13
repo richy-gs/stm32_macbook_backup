@@ -1,0 +1,10 @@
+20:02:30 **** Incremental Build of configuration Debug for project tarea1_stm32h755_CM4 ****
+make -j7 all 
+arm-none-eabi-size  tarea1_stm32h755_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4340	     16	   1568	   5924	   1724	tarea1_stm32h755_CM4.elf
+Finished building: default.size.stdout
+ 
+
+20:02:30 Build Finished. 0 errors, 0 warnings. (took 221ms)
+

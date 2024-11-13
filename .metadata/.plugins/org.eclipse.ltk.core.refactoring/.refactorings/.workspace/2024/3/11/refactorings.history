@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/assemblyWorld/Src/main.c" element2="/assemblyWorld/Src/syscalls.c" element3="/assemblyWorld/Src/sysmem.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1710128526720"/>&#x0A;<refactoring comment="Delete resource &apos;Lab03&apos;" deleteContents="true" description="Delete resource &apos;Lab03&apos;" element1="/Lab03" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1710438236378"/>
+</session>

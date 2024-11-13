@@ -1,0 +1,10 @@
+06:47:00 **** Incremental Build of configuration Debug for project Equipo3_Evidencia2___ ****
+make -j7 all 
+arm-none-eabi-size  Equipo3_Evidencia2___.elf 
+   text	   data	    bss	    dec	    hex	filename
+  47024	    528	  12392	  59944	   ea28	Equipo3_Evidencia2___.elf
+Finished building: default.size.stdout
+ 
+
+06:47:00 Build Finished. 0 errors, 0 warnings. (took 422ms)
+

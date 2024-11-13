@@ -1,0 +1,4 @@
+../Core/Src/delay.c:12:10:tim2_get_prescaler	1
+../Core/Src/delay.c:16:10:tim2_get_init_count	1
+../Core/Src/delay.c:20:6:tim2_delay	2
+../Core/Src/delay.c:53:6:USER_TIM1_Init_Timer	1

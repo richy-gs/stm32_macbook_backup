@@ -1,0 +1,5 @@
+../Src/uart.c:14:5:_write	32	static
+../Src/uart.c:23:6:USER_USART1_Init	4	static
+../Src/uart.c:32:6:USER_USART1_Transmit	24	static
+../Src/uart.c:44:13:USER_USART1_Send_8bit	16	static
+../Src/uart.c:49:9:USER_USART1_Read_8bit	4	static

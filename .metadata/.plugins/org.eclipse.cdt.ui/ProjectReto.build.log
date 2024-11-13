@@ -1,0 +1,10 @@
+01:00:31 **** Incremental Build of configuration Debug for project ProjectReto ****
+make -j7 all 
+arm-none-eabi-size  ProjectReto.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39060	    480	   2080	  41620	   a294	ProjectReto.elf
+Finished building: default.size.stdout
+ 
+
+01:00:31 Build Finished. 0 errors, 0 warnings. (took 158ms)
+

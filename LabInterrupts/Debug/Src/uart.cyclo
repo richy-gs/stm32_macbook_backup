@@ -1,0 +1,5 @@
+../Src/uart.c:14:5:_write	3
+../Src/uart.c:23:6:USER_USART1_Init	1
+../Src/uart.c:32:6:USER_USART1_Transmit	2
+../Src/uart.c:44:13:USER_USART1_Send_8bit	2
+../Src/uart.c:49:9:USER_USART1_Read_8bit	2

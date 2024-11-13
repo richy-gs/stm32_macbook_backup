@@ -1,0 +1,14 @@
+01:00:31 **** Incremental Build of configuration Debug for project ProjectReto_ConfigCycle ****
+make -j7 all 
+arm-none-eabi-gcc "../Src/timers.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32F103RBTx -DSTM32 -DSTM32F1 -DNUCLEO_F103RB -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/timers.d" -MT"Src/timers.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/timers.o"
+../Src/timers.c: In function 'USER_TIM1_Init_Timer':
+../Src/timers.c:54:5: error: 'TIM1' undeclared (first use in this function); did you mean 'TIM2'?
+   54 |     TIM1->SMCR &= ~(0x7UL << 0U);
+      |     ^~~~
+      |     TIM2
+../Src/timers.c:54:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Src/subdir.mk:52: Src/timers.o] Error 1
+"make -j7 all" terminated with exit code 2. Build might be incomplete.
+
+01:00:31 Build Failed. 2 errors, 0 warnings. (took 198ms)
+
